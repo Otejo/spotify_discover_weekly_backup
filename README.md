@@ -1,4 +1,4 @@
-# spotify_weekly_discovery
+# spotify_discover_weekly_backup
 A python script that will backup Discover Weekly track names so they are not lost forever 
 
 

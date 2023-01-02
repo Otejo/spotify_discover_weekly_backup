@@ -3,11 +3,10 @@ A python script that will backup Discover Weekly track names so they are not los
 
 
 # Requirements
-You will need to get a client_id, and client_secret from Spotify. This can be done by creating an APP for yourself at developer.spotify.com/dashboard/applications
+You will need to get a client_id, and client_secret from Spotify. This can be done by creating an APP for yourself at https://developer.spotify.com/dashboard/applications
 
 This uses the Tekore package - https://tekore.readthedocs.io/en/stable/
-You can use their example provided to create the tekore.cfg file that is used for authentication in this script.
-- https://github.com/felix-hilden/tekore/blob/0e2aa312e1bec8033092d6daf08f2fe92daffbcf/docs/src/getting_started.rst#saving-the-configuration 
+You can use their [example](https://github.com/felix-hilden/tekore/blob/0e2aa312e1bec8033092d6daf08f2fe92daffbcf/docs/src/getting_started.rst#saving-the-configuration) provided to create the tekore.cfg file that is used for authentication in this script. 
 (I will create a small file to do this later)
 
 You will need to get the 'id' for your discover weekly playlist. You can get this by going to open.spotify.com in your browser and navigating to your 'Discover Weekly' playlist. The id is the last part of the url. https://open.spotify.com/playlist/<PLAYLIST_ID>
